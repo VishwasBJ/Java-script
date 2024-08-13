@@ -9,4 +9,18 @@
 // console.log(timesFive(5))
 
 
-// undefined value returned
+// assignment with returned value
+var changed=0;
+function change(num) {
+    return num=(num+5)/3;
+}
+changed=change(10);
+var processed=0;
+function process(num) {
+    return num+=8
+}
+processed=process(100);
+console.log(processed)
+
+
+

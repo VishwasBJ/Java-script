@@ -9,3 +9,11 @@ function nice(name) {
     console.log("hey " + name + " is ultimate");
 }
 nice("Vishwas");
+function randomFraction() {
+    return Math.floor(Math.random()*10);
+}
+console.log(randomFraction());
+function convertToInteger(str){
+   return parseInt(str,2) ;
+}
+convertToInteger("123")
